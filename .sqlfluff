@@ -1,0 +1,17 @@
+[sqlfluff]
+# Базовый диалект по умолчанию
+dialect = ansi
+
+# Переопределения для папок
+[sqlfluff:override:sql/bigquery/**]
+dialect = bigquery
+
+[sqlfluff:override:sql/postgresql/**]
+dialect = postgres
+
+[sqlfluff:rules:capitalisation.keywords]
+capitalisation_policy = upper
+
+[sqlfluff:rules:layout.operators]
+# пробелы вокруг операторов
+extended_operators = True

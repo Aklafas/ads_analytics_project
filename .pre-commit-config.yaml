@@ -1,0 +1,9 @@
+repos:
+  - repo: https://github.com/sqlfluff/sqlfluff
+    rev: 3.0.7
+    hooks:
+      - id: sqlfluff-lint
+        files: ^sql/.*\.sql$
+      - id: sqlfluff-fix
+        files: ^sql/.*\.sql$
+        stages: [manual]
