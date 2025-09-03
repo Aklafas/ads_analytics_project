@@ -43,7 +43,7 @@ Analysis of advertising campaigns and e-commerce pages, answering business quest
 - Clear aliases, CTEs for logical steps
 - Formatting validation via sqlfluff
 
-## ✅ Результаты (тезисно)
+## ✅ Results
 1. Advertising (Google & Facebook):
 - Campaign X showed the highest CTR of 5.2%, while the cost per click was lower than average.
 - Video ad creatives have 30% more conversions than static banners.
